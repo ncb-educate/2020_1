@@ -19,6 +19,7 @@
 			<input type = "checkbox" name = "">
 			<font style="font-size:10pt;">ログインユーザー保存する</font><br>
 		</td>
+	</tr>
 	<tr>
 		<td align = 'center'>
 			<input type = "button" value = "ログイン" onclick = "" style="background-color:#4472c4; color:#ffffff;"/>
