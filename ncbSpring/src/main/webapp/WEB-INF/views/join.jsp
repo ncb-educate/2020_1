@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Join</title>
 </head>
 <body style = "align: center;">
 	<form name = "join" method = "post" action = "">

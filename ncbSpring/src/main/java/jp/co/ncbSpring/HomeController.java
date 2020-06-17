@@ -36,4 +36,19 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/login")
+	public String login() {
+		return "/login";
+	}
+	
+	@RequestMapping(value = "/join")
+	public String join() {
+		return "/join";
+	}
+	
+	@RequestMapping(value = "/noticeReg")
+	public String noticeReg() {
+		return "/noticeReg";
+	}
+	
 }

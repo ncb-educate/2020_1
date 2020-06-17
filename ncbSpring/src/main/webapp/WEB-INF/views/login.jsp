@@ -14,8 +14,8 @@
 			<b>N</b>uvo <br>
 			<b>C</b>yber <br>
 			<b>B</b>business <br><br>
-			<input type = "text" name = "userID" maxlength = "45" placeholder = "ユーザーID" size = "25px"><br><br>
-			<input type = "password" name = "password" maxlength = "45" placeholder = "パスワード" size = "25px"><br>
+			<input type = "text" name = "userID" maxlength = "45" placeholder = "ユーザーID" style = "width"20px; height:10px;"><br><br>
+			<input type = "password" name = "password" maxlength = "45" placeholder = "パスワード" style = "width"20px; height:10px;"><br>
 			<input type = "checkbox" name = "">
 			<font style="font-size:10pt;">ログインユーザー保存する</font><br>
 		</td>
@@ -28,7 +28,7 @@
 	</tr>
 	<tr>
 		<td align = 'right'>
-			<a href = ""><font style="font-size:10pt;">会員登録</font></a>
+			<a href = "/ncbSpring/join"><font style="font-size:10pt;">会員登録</font></a>
 		</td>
 	</tr>
 	</table>
