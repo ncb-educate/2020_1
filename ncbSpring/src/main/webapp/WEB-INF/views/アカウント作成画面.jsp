@@ -61,9 +61,9 @@ PASSWORD確認 <br/>
 メール <br/>
 <input type="text" id="mail" name="mail" maxlength="30" style="width:400px; height:40px;"></input><br/> <br/>
 
-<input type="button" id="new" name="mail" maxlength="2" value="加入" style="width:200px; height:40px;" border="8px solid" onclick="location=''" ></input>
+<input type="button" id="new" name="mail" maxlength="2" value="加入" style="width:200px; height:40px;" border="8px solid" onclick="location='/login'" ></input>
 
-<input type="button" id="back" name="mail" maxlength="2" value="戻る" style="width:200px; height:40px;" border="8px solid" onclick="location=''" ></input><br/> <br/>
+<input type="button" id="back" name="mail" maxlength="2" value="戻る" style="width:200px; height:40px;" border="8px solid" onclick="location='/login'" ></input><br/> <br/>
 
 </div>
 </form>

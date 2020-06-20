@@ -1,5 +1,3 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page session="false" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <html>
@@ -56,11 +54,11 @@
 <input type="text" id="userID" name="userID" maxlength="45" placeholder="ユーザーID" style="width:200px; height:40px;" border="8px solid" value="" onkeyup="key_check(this)" required/><br/> <br/>
 <input type="password" id="password" name="password" maxlength="45"  placeholder="パスワード" style="width:200px; height:40px;" border="8px solid" value="" onkeyup="key_check(this)" required/><br/> 
 <input type="checkbox"/>ログインユーザ保存する<br/> <br/>
-<input type="button" value="ログイン" onclick="location='account'" style="width:97px; height:30px;"/>
+<input type="button" value="ログイン" onclick="location.href='/open'" style="width:97px; height:30px;"/>
 <input type="button" value="終了"  style="width:97px; height:30px;"/>
 </div>
 <div id = "hiper">
-<a href="/ncbSpring/account" onclick="/account">
+<a href="/account">
 <h5>会員登録</h5></a>
 </div>
 
