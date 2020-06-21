@@ -56,4 +56,9 @@ public class HomeController {
 		return "/noticeDetail";
 	}
 	
+	@RequestMapping(value = "/noticeList")
+	public String noticeList() {
+		return "/noticeList";
+	}
+	
 }

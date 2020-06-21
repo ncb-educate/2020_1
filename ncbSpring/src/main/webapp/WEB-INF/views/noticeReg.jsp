@@ -17,11 +17,11 @@
 		margin-left:10%;
 		margin-right:10%;
 		padding-top:2px;
-		padding-left:3px
+		padding-left:3px;
 	}
 		
 	#content{
-	background-color:#BDBDBD;
+		background-color:#BDBDBD;
 		width:80%; 
 		height: 100%;
 		padding-left:3px;
@@ -69,13 +69,13 @@
 		<table>
 			<tr>
 				<td style="width:13%;"><h3>タイトル</h3></td>
-				<td style="width:1000px; padding-right:10px">
+				<td style="width:1300px; padding-right:10px">
 					<input type = "text" name = "title" maxlength = "50" placeholder = "タイトルを入力してください。" id = "text">
 				</td>
 			</tr>
 			<tr>
 				<td rowspan="2" style="width:13%;"></td>
-				<td style="width:1000px; padding-right:10px">
+				<td style="width:1300px; padding-right:10px">
 					<input type = "text" name = "content" maxlength = "500" placeholder = "内容を入力してください。" height = "100%" style="padding-bottom:45%;" id = "text" >
 				</td>
 			</tr>
