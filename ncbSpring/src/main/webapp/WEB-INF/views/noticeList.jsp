@@ -71,9 +71,9 @@
 	<div id = "header">
 		<table>
 			<tr>
-				<th style="width:50px;">NO</th>
+				<th style="width:200px;">NO</th>
 				<th style="width:300px;">タイトル</th>
-				<th style="width:400px;">作成者</th>
+				<th style="width:300px;">作成者</th>
 				<th style="width:500px;">作成日</th>
 			</tr>
 		</table>
@@ -82,15 +82,15 @@
 	<div id = "content">
 		<table>
 			<tr>
-				<td style="width:50px;" align = 'center'>1</td>
-				<td style="width:300px;" align = 'center'>お知らせ</td>
-				<td style="width:400px;" align = 'center'>ADMIN</td>
+				<td style="width:200px;" align = 'center'>1</td>
+				<td style="width:300px; padding-left:10px;">お知らせ</td>
+				<td style="width:300px; padding-left:10px;">ADMIN</td>
 				<td style="width:500px;" align = 'center'>２０２０－０４－２０</td>
 			</tr>
 			<tr>
-				<td style="width:50px;" align = 'center'>2</td>
-				<td style="width:300px;" align = 'center'>テストタイトル２</td>
-				<td style="width:400px;" align = 'center'>ユーザー１</td>
+				<td style="width:200px;" align = 'center'>2</td>
+				<td style="width:300px; padding-left:10px;">テストタイトル２</td>
+				<td style="width:300px; padding-left:10px;">ユーザー１</td>
 				<td style="width:500px;" align = 'center'>２０２０－０４－２６</td>
 			</tr>
 		</table>
