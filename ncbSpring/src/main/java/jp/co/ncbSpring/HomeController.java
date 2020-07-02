@@ -53,4 +53,10 @@ public class HomeController {
 		return "BOARD004";
 	}
 	
+	@RequestMapping(value = "/yjin", method = RequestMethod.GET)
+	public String home6(Locale locale, Model model) {
+		
+		return "YJ";
+	}
+	
 }

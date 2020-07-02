@@ -4,7 +4,7 @@
 <head>
 <title></title>
 </head>
-<script>
+<script type="text/javascript">
 
    function key_check(obj){
     for(var i=0; i< obj.value.length; i++) {
@@ -17,6 +17,25 @@
    }
    }
 }
+   
+   function CloseWindow() { 
+	   self.opener = self; 
+	   window.close(); 
+	 }
+   
+
+   function closeMe() {
+       var win=window.open("","_self");
+       win.close();
+   }
+   	
+
+   function quitBox(cmd) {   
+       if (cmd=='quit') {
+           open(location, '_self').close();
+       }   
+       return false;   
+   }
 </script>
 
 <style>
@@ -25,6 +44,7 @@
 	margin-top : 50px;
 	width: 250px;
 	height: 400px;
+	background-color : skyblue;
 	
 }
 
@@ -40,8 +60,9 @@
 
 </style>
 <body>
-<div id="d1">
-<form style="background-color: skyblue;">
+<div id="d1" >
+
+<form action="/open" method="GET">
  
 <div id="d2">
 <font size="6" border="5px solid">
@@ -50,19 +71,19 @@
 <b>B</b>usiness<br/>
 </font>
 <br/>
+
 <input type="text" id="userID" name="userID" maxlength="45" placeholder="ユーザーID" style="width:200px; height:40px;" border="8px solid" value="" onkeyup="key_check(this)" required/><br/> <br/>
-<input type="password" id="password" name="password" maxlength="45"  placeholder="パスワード" style="width:200px; height:40px;" border="8px solid" value="" onkeyup="key_check(this)" required/><br/> 
+<input type="password" id="password" name="password" maxlength="45"  placeholder="パスワード" style="width:200px; height:40px;" border="8px solid" value=""  required/><br/> 
 <input type="checkbox"/>ログインユーザ保存する<br/> <br/>
-<input type="button" value="ログイン" onclick="location.href='/open'" style="width:97px; height:30px;"/>
-<input type="button" value="終了"  style="width:97px; height:30px;"/>
+<input type="submit" value="ログイン" style="width:97px; height:30px;"/>
+<input type="button" value="終了" onclick="quitBox('quit')"  style="width:97px; height:30px;"/>
 </div>
 <div id = "hiper">
 <a href="/account">
 <h5>会員登録</h5></a>
 </div>
 
-
-</div>
 </form>
+</div>
 </body>
 </html>
