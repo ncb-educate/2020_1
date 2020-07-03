@@ -36,4 +36,29 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/login")
+	public String login() {
+		return "/login";
+	}
+	
+	@RequestMapping(value = "/signUp")
+	public String signUp() {
+		return "/signUp";
+	}
+	
+	@RequestMapping(value = "/notice")
+	public String noticeReg() {
+		return "/notice";
+	}
+	
+	@RequestMapping(value = "/noticeEx")
+	public String noticeEx() {
+		return "/noticeEx";
+	}
+	
+	@RequestMapping(value = "/noticeList")
+	public String noticeList() {
+		return "/noticeList";
+	}
+	
 }
